@@ -1,3 +1,6 @@
+# *WARNING* Repo moved to https://github.com/EnMasseProject/enmasse
+
+
 # routilities
 
 Various utilities for managing and monitoring a router network.
