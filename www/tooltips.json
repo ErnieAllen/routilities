@@ -1,0 +1,31 @@
+{
+  "en": {
+    "address": {
+      "name": {
+        "legend": "Enter the address name",
+        "popover": "The <b>address name</b> is a unique string to which messages can be sent and received.",
+        "external": "https://github.com/EnMasseProject/enmasse/pull/44"
+      },
+      "queue": {
+        "legend": "First in first out queue",
+        "popover": "A queue is a store-and-forward mechanism. Use when: <ul class='tooltip-list'><li>messages are produced faster than they can be consumed</li><li>when messages are produced and will be consumed at a later time</li></ul>"
+      },
+      "topic": {
+        "legend": "A topic address",
+        "popover": "A hierarchical address like country/state/city. Use when consumers want to control the level of detail messages they receive."
+      },
+      "anycast": {
+        "legend": "Many producers / few consumers",
+        "popover": "Use when there are many message producers and only a few consumers."
+      },
+      "multicast": {
+        "legend": "Many producers / many consumers",
+        "popover": "Use when there are one or more message producers and many message consumers."
+      },
+      "transactional": {
+        "legend": "Are transactions required?",
+        "popover": "Select if transaction are required."
+      }
+    }
+  }
+}
